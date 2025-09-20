@@ -20,6 +20,7 @@ body {
     align-items: center;
     justify-content:center ;
     display: flex;
+    position: relative;
     background-color: #ffe7cf;
 }
 .container{
@@ -31,7 +32,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    
+
     padding-top:0.5rem  ;
     padding-bottom: 0.5rem;
 
@@ -87,6 +88,7 @@ a{
     text-align: left;
     justify-content: center;
     display: flex;
+
 } 
 
 .pera{
@@ -120,10 +122,8 @@ a{
     display: flex;
     background-color: #f0eae5;
 }
-.headings2{
-    /* margin-left: 200px; */
 
-}
+
 .h1s2{
     text-align: center;
     font-size: 30px;
@@ -156,7 +156,7 @@ a{
     text-align: center;
     background-color: white;
     border-radius: 5px;
-    box-shadow: ;
+    box-shadow: 0,2px,5px rgb(129, 128, 128);
 }
 
 .imgSize{
@@ -168,3 +168,58 @@ a{
     margin-top: 20px;
     font-weight: bold;
 }
+
+.section3{
+    width: 99.9%;
+    height: 1050px;
+    justify-content: center;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.boxS3 {
+    display: flex;
+    justify-content: center;
+
+}
+.boxS3b1,.boxS3b2{
+    width: 50%;
+    height: 300px;
+    /* border: 2px solid black; */
+    margin-top: 40px;
+}
+
+.heading1S3{
+    font-size: small;
+}
+hr{
+    width: 25%;
+    height: 3px;
+    background-color: yellow;
+}
+
+.heading2S3{
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 30px;
+    padding-right: 150px;
+    line-height: 35px;
+}
+
+.pera1S3{
+    margin-top: 20px;
+    padding-right: 150px;
+}
+.learn{
+    color: #eb9a30;
+    margin-top: 20px;
+}
+
+.s2b2i1{
+    width: 50%;
+    border-radius: 50%;
+    margin-left: 150px;
+    
+}
+
+
