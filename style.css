@@ -17,7 +17,7 @@ body {
     justify-content:center ;
     display: flex;
     position: relative;
-    background-color: #ffe7cf;
+    background-color:#F6F0F0;
 }
 .container{
     width: 60%;
@@ -78,7 +78,7 @@ a{
 }
 
 .btn2{
-    background-color: orange;
+    background-color: #D37B4B;
     color: #ffe7cf;
     margin-left: 15px;
 }
@@ -116,7 +116,7 @@ a{
     padding: 10px;
     font-size: medium;
     color: #ffe7cf;
-    background-color: #eb9a30;
+    background-color:#D37B4B;
     border: 1px solid  ;
     border-radius: 5px;
 }
@@ -200,8 +200,9 @@ a{
 }
 hr{
     width: 25%;
-    height: 3px;
-    background-color: yellow;
+    height: 2px;
+    background-color: #FFF690;
+    color: #FFF690;
 }
 
 
@@ -276,8 +277,8 @@ hr{
     justify-content: center;
     align-items: center;
     height: 250px;
-    background-color: rgb(255, 255, 0);
-    color: rgb(138, 136, 136);
+    background-color: #FEC106;
+    color: #FFF690;
 }
 
 .headingS5{
