@@ -81,7 +81,7 @@ a{
     width: 99.9%;
     height:600px;
     display: block;
-    background-image: url(image/bgimg.jpg);
+    background-image: url(../image/bgimg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
