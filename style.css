@@ -264,3 +264,16 @@ hr{
 .imgb2S4{
     width: 20px;
 }
+
+.section5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: rgb(255, 255, 0);
+    color: rgb(138, 136, 136);
+}
+
+.headingS5{
+    line-height: 100px;
+}
