@@ -313,3 +313,9 @@ hr{
 .about-footer{
     line-height: 30px;
 }
+.copyRight{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     background-color: #f0eae5
+}
