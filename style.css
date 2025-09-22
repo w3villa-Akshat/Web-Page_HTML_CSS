@@ -3,13 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}    
+ 
 body {
-    font-family: sans-serif;
+    font-family:"Gill Sans";
     line-height: 1.6;
     color: #333;
     background-color: #f9f9f9;
@@ -32,9 +28,9 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-
     padding-top:0.5rem  ;
     padding-bottom: 0.5rem;
+
 
 }
 
@@ -46,12 +42,15 @@ body {
 }
 
 .navlst{
+
     display: flex;
-    align-items: right;
+    align-items: end;
     list-style: none;
-    gap: 10px ;
+    gap: 25px ;
     font-size: Bold;
-    margin-left: 400px;
+    margin: auto;
+    margin-left: 200px;
+    margin-right: 0px;
 }
 
 a{
@@ -60,21 +59,28 @@ a{
     color: #333;
     justify-content: end;
 }
+
 .nav_button{
-    gap: 20px;
-    padding: 5px;
+    display: block;
+    align-items: end;
+   
+    margin: auto;
+    margin-right: 0px;
+
 }
 .btn1,.btn2{
     border: 1px solid rgb(197, 165, 58);
-    padding: 4px;
+    padding: 8px;
     font-weight: 3px ;
     background: whitesmoke;
     border-radius: 3px;
+    
 }
 
 .btn2{
     background-color: orange;
     color: #ffe7cf;
+    margin-left: 15px;
 }
 
 .sectionOne{
@@ -143,14 +149,14 @@ a{
     
     display: flex;
     justify-content: center;
-    gap: 2.5rem 5%;
+    gap:80px ;
     margin-top: 20px;
     
 }
 
 .boxesS1{
     /* border: 1px solid black; */
-    width: 200px;
+    width: 300px;
     height: 180px;
     justify-content: center;
     text-align: center;
@@ -160,8 +166,8 @@ a{
 }
 
 .imgSize{
-    width: 80px;
-    padding-top: 20px ;
+    width: 50px;
+    padding-top: 40px;
 }
 
 .boxPs2{
@@ -218,9 +224,9 @@ hr{
 }
 
 .s2b2i1{
-    width: 50%;
-    border-radius: 40%;
-    margin-left: 120px;
+    width: 70%;
+    border-radius: 50%;
+    margin-left: 80px;
     
 }
 
@@ -240,7 +246,7 @@ hr{
 
 
 .box1S4{
-    
+    /* border: 1px solid black; */
     width: auto;
     height: 70px;
     margin-bottom: 20px;
@@ -248,16 +254,16 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem 10%;
+    gap: 8rem;
 }
 
 .box2S4{
-    
+    /* border: 1px solid black; */
     text-align: center;
     justify-content: center;
     display: flex;
     width: auto;
-    gap: 1rem 8px;
+    gap:6px ;
     font-weight: bold;
 }
 
