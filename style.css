@@ -198,6 +198,8 @@ hr{
     background-color: yellow;
 }
 
+
+
 .heading2S3{
     font-weight: bold;
     margin-top: 20px;
@@ -217,9 +219,48 @@ hr{
 
 .s2b2i1{
     width: 50%;
-    border-radius: 50%;
-    margin-left: 150px;
+    border-radius: 40%;
+    margin-left: 120px;
     
 }
 
+.section4{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-color: #f0eae5;
 
+}
+
+.headingS4{
+    margin-left: 35%;
+}
+
+
+.box1S4{
+    
+    width: auto;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem 10%;
+}
+
+.box2S4{
+    
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: auto;
+    gap: 1rem 8px;
+    font-weight: bold;
+}
+
+.imgb2S4{
+    width: 20px;
+}
