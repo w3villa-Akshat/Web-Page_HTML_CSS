@@ -16,7 +16,8 @@ body {
     align-items: center;
     justify-content:center ;
     display: flex;
-    position: relative;
+    position: sticky;
+    top: 0%;
     background-color:#F6F0F0;
 }
 .container{
@@ -30,8 +31,6 @@ body {
     align-items: center;
     padding-top:0.5rem  ;
     padding-bottom: 0.5rem;
-
-
 }
 
 .logo{
@@ -201,8 +200,8 @@ a{
 hr{
     width: 25%;
     height: 2px;
-    background-color: #FFF690;
-    color: #FFF690;
+    text-decoration: #FFF690;
+   
 }
 
 
@@ -324,5 +323,5 @@ hr{
     align-items: center;
     justify-content: center;
     text-align: center;
-     background-color: #f0eae5
+    background-color: #f0eae5; 
 }
